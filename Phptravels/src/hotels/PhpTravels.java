@@ -18,7 +18,7 @@ public class PhpTravels {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath(".//*[@id='select2-drop']/ul/li/ul/li[1]/div")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.name("checkin")).click();
+		driver.findElement(By.name(".form.input-lg.dpd1")).click();
 		Thread.sleep(2000);
 	    driver.findElement(By.xpath("//tr[5]/td[7]")).click();
 	    Thread.sleep(2000);
