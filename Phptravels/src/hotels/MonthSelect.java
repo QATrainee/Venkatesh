@@ -67,7 +67,7 @@ public class MonthSelect {
 				System.out.println("Month Selected"); 
 				break;
 		}
-	}
+	} 
 }
 	Thread.sleep(2000);
 	WebElement datepicker1 = driver.findElement(By.xpath("html/body/div[14]/div[1]/table/tbody/tr[3]/td[5]"));
